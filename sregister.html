@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sRegister</title>
+
+    <!-- CSS Style Sheet -->
+    <link rel="stylesheet" href="./public/output.css">
+
+    <!-- Line Awesome -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <!-- Main Container -->
+    <div class="bg-main-bg bg-cover h-screen">
+
+        <!-- Logo Container (Absolute) -->
+        <div class="flex justify-between absolute w-full font-montserrat tracking-wide z-10 p-8">
+            <div class="flex items-center font-semibold">
+                <img class="h-20 | md:h-24" src="./images/Barangay_Seal.png" alt="Barangay_Seal">
+                <span class="invisible md:visible font-montserrat ml-3 text-xl">BARANGAY <br> MANAGEMENT <br> SYSTEM</span>
+            </div>
+            <img class="h-20 | md:h-24" src="./images/Manila_Seal.png" alt="Manila_Seal">
+        </div>
+        
+        <!-- Login Container (Low Opacity) -->
+        <div class="bg-main-low-opacity flex flex-col justify-center h-screen absolute w-full right-0 | md:w-[32rem] md:rounded-l-3xl">
+            <span class="font-montserrat mx-auto text-5xl font-semibold mb-5 text-center">Registered Successfully!</span>
+        
+            
+            <p class="mx-auto font-light">Please go back to <a class="text-main-red bottom-8 left-1/2 translate-x-[-50%] font-semibold" href="index.html">Login</a></p>
+        </div>     
+    </div>
+    
+</body>
+</html>
