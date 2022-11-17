@@ -20,7 +20,7 @@
 <body>
     
     <!-- Main Container -->
-    <div class="bg-main-bg bg-cover h-screen relative overflow-hidden">
+    <div class="bg-main-bg bg-cover h-screen flex justify-end">
 
         <!-- Logo Container (Absolute) -->
         <div class="flex justify-between absolute w-full font-montserrat tracking-wide z-10 p-8">
@@ -32,26 +32,29 @@
         </div>
         
         <!-- Login Container (Low Opacity) -->
-        <div class="bg-main-low-opacity flex flex-col justify-center h-[48rem] absolute w-full right-0 h-desktop | md:w-[32rem] md:rounded-l-3xl">
-            <span class="font-montserrat mx-auto text-2xl font-semibold mb-12 text-center | md:absolute md:invisible md:text-3xl ">BARANGAY <br> MANAGEMENT <br> SYSTEM</span>
-            <form action="" class="w-4/5 mx-auto">
-                <div class="w-full font-extralight font-poppins">
-                    <label for="email">Enter Username</label><br>
-                    <input class="w-full h-11 rounded-lg border-0 p-3 mb-2 text-black font-light" type="text" required><br>
-                    <label for="password">Enter Password</label><br>
-                    <input class="w-full h-11 rounded-lg border-0 mb-1 p-3 text-black font-light" type="password" required><br>
+        <div class="bg-main-low-opacity flex flex-col w-full | md:w-[32rem] md:rounded-l-3xl">
+            <div class="flex flex-col relative top-32">
+                <span class="font-montserrat mx-auto text-2xl font-semibold mb-12 text-center | md:absolute md:invisible md:text-3xl ">BARANGAY <br> MANAGEMENT <br> SYSTEM</span>
+                <form action="" class="w-4/5 mx-auto">
+                    <div class="w-full font-extralight font-poppins">
+                        <label for="email">Enter Username</label><br>
+                        <input class="w-full h-11 rounded-lg border-0 p-3 mb-2 text-black font-light" type="text" required><br>
+                        <label for="password">Enter Password</label><br>
+                        <input class="w-full h-11 rounded-lg border-0 mb-1 p-3 text-black font-light" type="password" required><br>
+                    </div>
+                    <div class="flex justify-between pb-20">
+                        <span class="font-extralight"><input type="checkbox"> Remember me</span>
+                        <p class="font-extralight"><a href="#">Forgot Password</a></p>
+                    </div>
+    
+                    <button type="submit" class="rounded-xl border-0 block h-10 w-52 bg-white text-main-dark-blue text-2xl mx-auto font-semibold font-poppins hover:bg-main-dark-blue hover:text-white">Login</button>
+                </form>
+                
+                <div class="mx-auto relative top-6">
+                    <p class="font-light">Need an account? <a class="text-main-red font-semibold" href="register.html">Register</a></p>
                 </div>
-                <div class="flex justify-between pb-20">
-                    <span class="font-extralight"><input type="checkbox"> Remember me</span>
-                    <p class="font-extralight"><a href="#">Forgot Password</a></p>
-                </div>
-
-                <button type="submit" class="rounded-xl border-0 block h-10 w-52 bg-white text-main-dark-blue text-2xl mx-auto font-semibold font-poppins hover:bg-main-dark-blue hover:text-white">Login</button>
-            </form>
-            
-            <div class="mx-auto relative top-6">
-                <p class="font-light">Need an account? <a class="text-main-red font-semibold" href="register.html">Register</a></p>
             </div>
+
             
         </div>     
     </div>
