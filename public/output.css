@@ -529,8 +529,8 @@ video {
   right: 0px;
 }
 
-.top-10 {
-  top: 2.5rem;
+.top-6 {
+  top: 1.5rem;
 }
 
 .bottom-8 {
@@ -539,26 +539,6 @@ video {
 
 .left-1\/2 {
   left: 50%;
-}
-
-.top-20 {
-  top: 5rem;
-}
-
-.top-9 {
-  top: 2.25rem;
-}
-
-.top-8 {
-  top: 2rem;
-}
-
-.top-7 {
-  top: 1.75rem;
-}
-
-.top-6 {
-  top: 1.5rem;
 }
 
 .z-10 {
@@ -610,43 +590,16 @@ video {
   height: 5rem;
 }
 
+.h-\[48rem\] {
+  height: 48rem;
+}
+
 .h-11 {
   height: 2.75rem;
 }
 
 .h-10 {
   height: 2.5rem;
-}
-
-.h-max {
-  height: -moz-max-content;
-  height: max-content;
-}
-
-.h-min {
-  height: -moz-min-content;
-  height: min-content;
-}
-
-.h-auto {
-  height: auto;
-}
-
-.h-fit {
-  height: -moz-fit-content;
-  height: fit-content;
-}
-
-.h-full {
-  height: 100%;
-}
-
-.max-h-screen {
-  max-height: 100vh;
-}
-
-.min-h-screen {
-  min-height: 100vh;
 }
 
 .w-full {
@@ -786,11 +739,6 @@ video {
   color: rgb(220 113 92 / var(--tw-text-opacity));
 }
 
-.text-white {
-  --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-
 * {
   box-sizing: border-box;
   margin: 0;
@@ -798,8 +746,10 @@ video {
   color: white;
 }
 
-.height-full {
-  min-height: -webkit-fill-available;
+@media (min-height: 500px) {
+  .h-desktop {
+    height: 100vh;
+  }
 }
 
 .hover\:bg-main-dark-blue:hover {

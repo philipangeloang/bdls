@@ -10,7 +10,9 @@
         color: white;
     }
     
-    .height-full {
-        min-height: -webkit-fill-available;
+    @media (min-height: 500px) {
+        .h-desktop {
+            height: 100vh;
+        }
     }
 }
