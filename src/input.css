@@ -10,9 +10,9 @@
         color: white;
     }
     
-    @media (min-height: 500px) {
+    @media (max-height: 612px) {
         .h-desktop {
-            height: 100vh;
+            height: 39rem;
         }
     }
 }
