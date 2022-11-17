@@ -602,6 +602,14 @@ video {
   height: 2.5rem;
 }
 
+.h-full {
+  height: 100%;
+}
+
+.h-\[20rem\] {
+  height: 20rem;
+}
+
 .w-full {
   width: 100%;
 }
