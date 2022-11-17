@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
+    <title>Logged In</title>
 
     <!-- CSS Style Sheet -->
     <link rel="stylesheet" href="./public/output.css">
@@ -33,29 +33,12 @@
         
         <!-- Login Container (Low Opacity) -->
         <div class="bg-main-low-opacity flex flex-col w-full h-desktop | md:justify-center md:w-[32rem] md:rounded-l-3xl">
-            <div class="flex flex-col relative top-32 | md:top-0">
-                <span class="font-montserrat mx-auto text-2xl font-semibold mb-12 text-center | md:absolute md:invisible md:text-3xl ">BARANGAY <br> MANAGEMENT <br> SYSTEM</span>
-                <form action="" class="w-4/5 mx-auto">
-                    <div class="w-full font-extralight font-poppins">
-                        <label for="email">Enter Username</label><br>
-                        <input class="w-full h-11 rounded-lg border-0 p-3 mb-2 text-black font-light" type="text" required><br>
-                        <label for="password">Enter Password</label><br>
-                        <input class="w-full h-11 rounded-lg border-0 mb-1 p-3 text-black font-light" type="password" required><br>
-                    </div>
-                    <div class="flex justify-between pb-20">
-                        <span class="font-extralight"><input type="checkbox"> Remember me</span>
-                        <p class="font-extralight"><a href="fpass.html">Forgot Password</a></p>
-                    </div>
-    
-                    <button type="submit" class="rounded-xl border-0 block h-10 w-52 bg-main-red text-white text-2xl mx-auto font-semibold font-poppins hover:bg-white hover:text-main-red"><a href="loggedin.html">Login</a></button>
-                </form>
-                
-                <div class="mx-auto relative top-6">
-                    <p class="font-light">Need an account? <a class="text-main-red underline font-semibold" href="register.html">Register</a></p>
-                </div>
+            <div class="flex flex-col relative top-60 | md:top-0">
+                <span class="font-montserrat mx-auto text-5xl font-semibold mb-5 text-center">Logged in as</span>
+                <p class="mx-auto font-light">email@gmail.com</p>
+                <p class="mx-auto font-light text-main-red underline"><a href="index.html">logout</a></p>
             </div>
 
-            
         </div>     
     </div>
     
