@@ -20,7 +20,7 @@
 <body>
     
     <!-- Main Container -->
-    <div class="bg-main-bg bg-cover h-screen relative overflow-hidden">
+    <div class="bg-main-bg bg-cover h-screen flex justify-end h-desktop">
 
         <!-- Logo Container (Absolute) -->
         <div class="flex justify-between absolute w-full font-montserrat tracking-wide z-10 p-8">
@@ -32,11 +32,12 @@
         </div>
         
         <!-- Login Container (Low Opacity) -->
-        <div class="bg-main-low-opacity flex flex-col justify-center h-[48rem] absolute w-full right-0 h-desktop | md:w-[32rem] md:rounded-l-3xl">
-            <span class="font-montserrat mx-auto text-5xl font-semibold mb-5 text-center">Registered Successfully!</span>
-        
-            
-            <p class="mx-auto font-light">Please go back to <a class="text-main-red bottom-8 left-1/2 translate-x-[-50%] font-semibold" href="index.html">Login</a></p>
+        <div class="bg-main-low-opacity flex flex-col w-full h-desktop | md:justify-center md:w-[32rem] md:rounded-l-3xl">
+            <div class="flex flex-col relative top-60 | md:top-0">
+                <span class="font-montserrat mx-auto text-5xl font-semibold mb-5 text-center">Registered Successfully!</span>
+                <p class="mx-auto font-light">Please go back to <a class="text-main-red underline font-semibold" href="index.html">Login</a></p>
+            </div>
+
         </div>     
     </div>
     
