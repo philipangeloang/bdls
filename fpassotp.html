@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Register</title>
+    <title>OTP</title>
 
     <!-- CSS Style Sheet -->
     <link rel="stylesheet" href="./public/output.css">
@@ -33,26 +33,26 @@
         
         <!-- Login Container (Low Opacity) -->
         <div class="bg-main-low-opacity flex flex-col w-full h-desktop | md:justify-center md:w-[32rem] md:rounded-l-3xl">
-            <div class="flex flex-col relative top-32 | md:top-0">
-                <span class="font-montserrat mx-auto text-3xl font-semibold mb-5">REGISTRATION</span>
+            <div class="flex flex-col relative top-48 | md:top-0">
+                <span class="font-montserrat mx-auto text-3xl font-semibold mb-5">VERIFICATION</span>
+                <div class="mx-auto w-4/5 text-center mb-9">
+                    <p class="font-light">You will get an OTP via Email</p>
+                </div>
                 <form action="" class="w-4/5 mx-auto">
                     <div class="w-full font-extralight font-poppins">
-                        <label for="text">Username</label><br>
+                        <label for="email">One Time Password</label><br>
                         <input class="w-full h-11 rounded-lg border-0 p-3 mb-2 text-black font-light" type="text" required><br>
-                        <label for="email">Email</label><br>
-                        <input class="w-full h-11 rounded-lg border-0 mb-1 p-3 text-black font-light" type="email" required><br>
-                        <label for="password">Password</label><br>
-                        <input class="w-full h-11 rounded-lg border-0 p-3 mb-2 text-black font-light" type="password" required><br>
-                        <label for="password">Confirm Password</label><br>
-                        <input class="w-full h-11 rounded-lg border-0 p-3 mb-20 text-black font-light" type="password" required><br>
+                    </div>
+
+                    
+                    <div class="flex justify-between pb-20">
+                        <p class="font-extralight text-red-500">Invalid OTP</p>
+                        <p class="font-extralight text-slate-400"><a href="#">Resend OTP</a></p>
                     </div>
                     
-                    <button type="submit" class="rounded-xl border-0 block h-10 w-52 bg-main-red text-white text-2xl mx-auto font-semibold font-poppins hover:bg-white hover:text-main-red"><a href="registerotp.html">Register</a></button>
+                    <button type="submit" class="rounded-xl border-0 block h-10 w-52 bg-main-red text-white text-2xl mx-auto font-semibold font-poppins hover:bg-white hover:text-main-red"><a href="npass.html">Verify</a></button>
                 </form>
 
-                <div class="mx-auto relative top-6">
-                    <p class="font-light">Already have an account? <a class="text-main-red underline font-semibold" href="index.html">Login</a></p>
-                </div>
             </div>
 
         </div>     
